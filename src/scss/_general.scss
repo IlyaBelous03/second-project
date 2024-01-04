@@ -1,0 +1,175 @@
+.header{
+    background: url(../img/background/bg.jpg) center center/cover no-repeat;
+    height: 650px;
+    padding-top: 20px;
+    color: white;
+    &__logo{
+        text-align: center;
+        .repres{
+            &__text{
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 12px;
+                font-style: normal;             
+            }
+            &__compani{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 29px;
+                font-style: italic;
+            }
+        }
+        .call{
+            &__number{
+                font-size: 18px;
+                font-weight: 700;
+                line-height: 18px;
+            }
+            &__btn{
+                margin-top: 4px;
+                width: 150px;
+                height: 30px;
+                background-color: #C70101;
+                text-transform: uppercase;
+                font-size: 12px;
+                font-weight: 500;
+                line-height: 30px;
+                border-radius: 5px;
+            }
+        }
+    }
+    &__promo{
+        margin-top: 90px;
+        padding-right: 90px;
+        text-align: right;
+        h1{
+            text-transform: uppercase;
+            font-size: 42px;
+            font-weight: 700;
+            line-height: 42px;         
+        }
+        h2{
+            text-transform: uppercase;
+            font-size: 24px;
+            font-weight: 500;
+            line-height: 24px;
+            margin-top: 17px;
+        }
+        .icon{
+            text-align: center;
+            margin: 60px 25px 0;
+            &__text{
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 14px;
+                color: white;
+            }
+        }
+        .consult-btn{
+            margin-top: 60px;
+            width: 300px;
+            height: 50px;
+            background-color: #C70101;
+            border-radius: 5px;
+            border: 0;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 25px;
+            color: white;
+            text-transform: uppercase;
+        }
+        .go-catalog{
+            margin-top: 10px;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 25px;
+            a{
+                color: white;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+.advantages{
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 70px;
+    h2{
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+    }
+    &__cont{
+        width: 265px;
+        display: inline-block;
+        padding-top: 65px;
+        &:nth-child(2){
+            margin: 0 65px;
+        }
+        h3{
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 29px;
+            margin: 25px 0 20px;
+        }
+        &-text{
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 18px;
+            margin-bottom: 65px;
+            a{
+                color: #FF0000;
+                text-transform: uppercase;
+                font-style: italic;
+            }
+        }
+    }
+    
+}
+
+.consultation{
+    background: url(../img/background/bg2.jpg) center center/cover no-repeat;
+    height: 680px;
+    color: white;
+    padding-top: 100px;
+    h2{
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 54px;
+        text-transform: uppercase;
+    }
+    &__text{
+        margin-top: 8px;
+        margin-bottom: 36px;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 30px;
+    }
+    input{
+        width: 303px;
+        height: 54px;
+        border-radius: 5px;
+        border: 0;
+        position: relative;
+        margin-bottom: 11px;
+        &::placeholder{
+            position: absolute;
+            left: 21px;
+        }
+    }
+    .consult-btn{
+        width: 300px;
+        height: 50px;
+        background-color: #C70101;
+        border-radius: 5px;
+        border: 0;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+        color: white;
+        text-transform: uppercase;
+    }
+}
+//fdoghjfuig
