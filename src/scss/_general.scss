@@ -172,4 +172,26 @@
         text-transform: uppercase;
     }
 }
-//fdoghjfuig
+
+.carousel__list{
+    background-color: red;
+    height: 740px;
+    padding: 80px 0;
+    position: relative;
+    .first-slade{
+        width: 750px;
+        height: 580px;
+        position: absolute;
+    }
+    .second-slide{
+        width: 750px;
+        height: 422px;
+        position: absolute;
+        top: 22%;
+    }
+    .third-slide{
+        width: 750px;
+        height: 580px;
+        position: absolute;
+    }
+}
