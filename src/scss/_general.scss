@@ -195,3 +195,51 @@
         position: absolute;
     }
 }
+
+.catalog{
+    text-align: center;
+    padding-top: 30px;
+    p{
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        text-transform: uppercase;
+    }
+    &__list{
+        display: flex;
+        justify-content: center;
+        li{
+            border: 2px solid #d0d0d0;
+            margin: 0px 5px;
+            width: 200px;
+            transform: skew(-20deg);
+            a{
+                display: inline-block;
+                text-decoration: none;
+                font-size: 18px;
+                font-weight: 400;
+                color: #6b6b6b;
+                line-height: 48px;
+                text-transform: uppercase;
+                transform: skew(20deg);
+            }
+        }
+        .active{
+            background-color: #C70101;
+            border: 0;
+            a{
+                color: white;
+            }
+        }
+    }
+    &__shop{
+        flex-wrap: wrap;
+        width: 945px;
+        margin: 0 auto;
+        &-info{
+            width: 300px;
+            height: 440px;
+            border: 2px solid #e8e8e8;
+        }
+    }
+}
