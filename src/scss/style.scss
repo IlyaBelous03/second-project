@@ -12,5 +12,9 @@ html {
 	font-family: 'Museo Sans Cyrl', sans-serif;
 }
 
+body{
+    position: relative;
+}
+
 @import 'general';
 @import 'media';
