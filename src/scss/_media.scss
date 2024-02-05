@@ -1,0 +1,346 @@
+@media(max-width: 1400px){
+    .header{
+        &__promo{
+            padding-right: 60px;
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .header{
+        &__promo{
+            padding-right: 30px;
+            h1{
+                font-size: 35px;
+            }
+            h2{
+                font-size: 20px;
+            }
+        }
+    }
+    .carousel__list{
+        width: 500px;
+        height: 470px;
+        .first-slade, .second-slide, .third-slide{
+            width: 500px;
+        }
+        .second-slide{
+            margin: 8% 0;
+        }
+    }
+}
+@media(max-width: 992px){
+    .header{
+        height: 630px;
+        &__logo{
+            .logo{
+                img{
+                    width: 200px;
+                }
+                
+            }
+            .repres{
+                &__text{
+                    font-size: 12px;           
+                }
+                &__compani{
+                    font-size: 16px;
+                }
+            }
+            .call{
+                &__number{
+                   font-size: 17px; 
+                }
+                
+            }
+        }
+        &__promo{
+            padding-right: 15px;
+            h1{
+                font-size: 35px;
+            }
+            h2{
+                font-size: 20px;
+            }
+            .icon{
+                margin: 50px 15px 0;
+            }
+            .go-catalog{
+                font-size: 15px;
+            }
+        }
+    }
+    
+    .advantages{
+        &__cont{
+            width: 300px;
+            margin: 0 auto;
+            padding-top: 0;
+            &:nth-child(1){
+                padding-top: 65px;
+            }
+            &:nth-child(2){
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .consultation{
+        padding: 100px 40px 0;
+        h2{
+            font-size: 30px;
+        }
+        input{
+            width: 275px;
+        }
+        .consult-btn{
+            width: 275px;
+        }
+    }
+
+    .catalog{
+        h2{
+            font-size: 28px;
+            margin-bottom: 30px;
+        }
+        &__list{
+            li{
+                div{
+                    width: 175px;
+                    font-size: 16px;
+                }
+            }
+        }
+        &__shop{
+            width: 700px;
+            margin: 0 auto;
+            &-info{
+                margin: 20px 22px 0 ;
+            }
+        }
+    }
+    .reviews{
+        width: 100%;
+        h2{
+            font-size: 28px;
+        }
+        &__people{
+            .text{
+                .comment{
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+
+    footer{
+        iframe{
+            height: 550px;
+        }
+        .contact{
+            width: 400px;
+            height: 250px;
+            &__address{
+                margin-top: 35px;
+            }
+        }
+    }
+}
+
+@media(max-width: 768px){
+    .header{
+        &__logo{
+            .logo{
+                img{
+                    width: 150px;
+                }
+            }
+            .repres{
+                display: none;
+            }
+        }
+    }
+
+    .carousel__list{
+        width: 400px;
+        height: 370px;
+        .first-slade, .second-slide, .third-slide{
+            width: 400px;
+        }
+    }
+
+    .catalog{
+        &__list{
+            li{
+                div{
+                    width: 150px;
+                    font-size: 15px;
+                }
+            }
+        }
+        &__shop{
+            width: 500px;
+            margin: 0 auto;
+            &-info{
+                width: 230px;
+                margin: 20px 8px 0;
+                .product{
+                    &__back{
+                        ul{
+                            margin: 0 5px;
+                            margin-bottom: 30px;
+                            li{
+                                span{
+                                    font-size: 13px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .buy{
+                    padding-top: 10px;
+                    &__price{
+                        .new-price{
+                            font-size: 18px;
+                        }
+                    }
+                    .buy__btn{
+                        width: 100px;
+                        height: 35px;
+                    }
+                }
+            }
+        }
+    }
+
+    .reviews{
+        &__people{
+            text-align: center;
+            flex-direction: column;
+            .text{
+                margin-left: 20px;
+                margin-top: 15px;
+                text-align: left;
+            }
+        }
+    }
+
+    .footer{
+        iframe{
+            display: none;
+        }
+        .contact{
+            width: 100%;
+            min-height: 300px;
+            &__repres{
+                display: inline-block;
+                &-text{
+                    font-size: 20px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    color: white;
+                    margin-top: 35px;
+                }
+                &-compani{
+                    font-size: 20px;
+                    font-weight: 500;
+                    font-style: italic;
+                    line-height: 20px;
+                    color: white;
+                }
+            }
+            &__address{
+                margin-top: 15px;
+            }
+            &__number{
+                margin-top: 25px;
+            }
+        }
+    }
+}
+
+@media(max-width: 576px){
+    .header{
+        &__logo{
+            .logo{
+                img{
+                    width: 125px;
+                }
+            }
+            .call{
+                &__number{
+                    font-size: 16px;
+                }
+                &__btn{
+                    width: 140px;
+                }
+            }
+        }
+    }
+    .consultation{
+        height: 600px;
+        padding: 50px 0 0;
+        h2{
+            font-size: 20px;
+            line-height: 33px;
+        }
+        &__text{
+            font-size: 17px;
+        }
+    }
+    .carousel__list{
+        width: 300px;
+        height: 270px;
+        margin: 0 auto;
+        .first-slade, .second-slide, .third-slide{
+            width: 300px;
+        }
+        .button-left, .button-right{
+            img{
+                display: none;
+            }
+        }
+    }
+
+    .catalog{
+        h2{
+            font-size: 24px;
+            margin-top: 20px;
+        }
+        &__list{
+            flex-direction: column;
+            li{
+                margin-bottom: 10px;
+            }
+        }
+        &__shop{
+            width: 300px;
+        }
+    }
+    .window{
+        &__consultation-active{
+            padding: 25px 25px 0;
+            width: 250px;
+            height: 350px;
+            div{
+                font-size: 15px;
+                span{
+                    font-size: 12px;
+                }
+            }
+            input{
+                width: 200px;
+                height: 40px;
+            }
+            .consult-btn{
+                font-size: 13px;
+                width: 200px;
+                height: 40px;
+            }
+            .exit{
+                left: auto;
+                right: -35px;
+            }
+        }
+    }
+}

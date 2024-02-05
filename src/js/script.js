@@ -7,6 +7,11 @@ $(document).ready(function(){
     });
 });
 
+let arr = [1,2,3,4,5]
+for (let i of arr){
+    
+    console.log(i)
+}console.log(arr)
 
 let more = document.querySelectorAll('#more');
 let btnBack = document.querySelectorAll('#btnBack')
@@ -44,6 +49,9 @@ let windowBtn = document.querySelector('#windowCons');
 
 //exit button
 let exit = document.querySelectorAll('.exit');
+let buyEnd = document.querySelector('#windowBuy');
+
+let mainBtn = document.querySelector('.main__consult-btn')
 
 
 //creating a window to consultation or purchase
@@ -68,6 +76,10 @@ windowBtn.addEventListener('click', function(){
     final.classList.add('window__final-active');
 })
 
+mainBtn.addEventListener('click', function(){
+    wind.classList.add('window-active');
+    final.classList.add('window__final-active');
+})
 
 //get out of all the window
 for(let elem of exit){
@@ -78,3 +90,42 @@ for(let elem of exit){
         buy.classList.remove('window__purchase-active');
     });
 }
+
+//button buy in window
+buyEnd.addEventListener('click', function(){
+    buy.classList.remove('window__purchase-active');
+    wind.classList.remove('window-active');
+})
+
+
+
+
+
+
+
+
+
+//catalog button
+document.addEventListener("DOMContentLoaded", function () {
+    var btnList = document.querySelectorAll('.btn-list');
+
+    btnList.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+            var targetId = btn.getAttribute('data-target');
+            showList(targetId);
+        });
+    });
+});
+
+function showList(listId) {
+    var lists = document.querySelectorAll('.list');
+    
+    lists.forEach(function (list) {
+        if (list.id === listId) {
+            list.style.display = 'inline-block';
+        } else {
+            list.style.display = 'none';
+        }
+    });
+}
+
