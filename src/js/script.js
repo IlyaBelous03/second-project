@@ -5,6 +5,22 @@ $(document).ready(function(){
         prevArrow: '<button class="button-left"><img src="img/icon/btn-left.png" alt=""></button>',
         nextArrow: '<button class="button-right"><img src="img/icon/btn-right.png" alt=""></button>',
     });
+
+    // scroll up
+    $(window).scroll(function(){
+        if($(this).scrollTop() > 1600){
+            $('.scroll').fadeIn();
+        }
+        else{
+            $('.scroll').fadeOut();
+        }
+    });
+
+    $("a[href^='#']").click(function(){
+        const _href = $(this).attr("href");
+        $("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+        return false;
+    });
 });
 
 let arr = [1,2,3,4,5]
@@ -98,13 +114,6 @@ buyEnd.addEventListener('click', function(){
 })
 
 
-
-
-
-
-
-
-
 //catalog button
 document.addEventListener("DOMContentLoaded", function () {
     var btnList = document.querySelectorAll('.btn-list');
@@ -128,4 +137,3 @@ function showList(listId) {
         }
     });
 }
-

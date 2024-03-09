@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Run Smart</title>
+    <link rel="icon" href="img/icon/faviconClock.png" sizes="32x32" type="image/png">
+    <link rel="shortcut icon" href="img/icon/faviconClock.png" sizes="32x32" type="image/png">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/grid.css">
     <link rel="stylesheet" href="css/slick.css">
@@ -49,7 +51,7 @@
             <button class="consult-btn" id="windowBuy">Купить</button>
         </div>
     </div>
-    <header class="header">
+    <header class="header" id="header">
         <div class="container">
             <div class="header__logo row">
                 <div class="col-12 col-md-10 offset-md-1">
@@ -149,13 +151,13 @@
                 <h2 id="catalog">Каталог пульсометров</h2>
                 <ul class="catalog__list">
                     <li>
-                        <div tabindex="0" class="btn-list" data-target="list1"><span>Для фитнеса</span>
+                        <div tabindex="0" class="btn-list" data-target="list1"><span>Для фитнеса</span></div>
                     </li>
                     <li>
-                        <div tabindex="0" class="btn-list" data-target="list2"><span>для бега</span>
+                        <div tabindex="0" class="btn-list" data-target="list2"><span>для бега</span></div>
                     </li>
                     <li>
-                        <div tabindex="0" class="btn-list" data-target="list3"><span>для триатлона</span>
+                        <div tabindex="0" class="btn-list" data-target="list3"><span>для триатлона</span></div>
                     </li>
                 </ul>
                 <div class="catalog__shop">
@@ -521,6 +523,8 @@
             </div>
         </div>
     </footer>
+
+    <a href="#header" class="scroll"><img src="img/icon/scrollUp.png" alt=""></a>
 
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
